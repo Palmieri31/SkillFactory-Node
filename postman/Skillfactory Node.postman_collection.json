@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "9d6bab7a-0298-4fa3-907a-dabb86955bfb",
+		"name": "Skillfactory Node",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "saludo",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"federico\"\r\n}"
+				},
+				"url": {
+					"raw": "{{Ruta}}/api/saludo",
+					"host": [
+						"{{Ruta}}"
+					],
+					"path": [
+						"api",
+						"saludo"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
